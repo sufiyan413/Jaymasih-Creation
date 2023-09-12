@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+    .Header-Section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:300px;
+        background-color: white;
+       position: fixed;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        background-color: white;
+    }
+    
+    
+    
+    .Header-Logo{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 90px;
+        
+    }
+    .Nav-Links{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 16px;
+    }
+    
+    
+    .Nav-Links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .Nav-Links ul li {
+        display: inline-block;
+        margin-right: 15px;
+        cursor: pointer;
+        transition: color 0.3s ease; 
+        padding-left: 25px;
+    }
+    
+    .Nav-Links ul li:hover {
+        color: red; 
+    }
+    
+    .main-Section{
+       padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 50px;
+    }
+    
+    
+    .Text-Section h1{
+        font-size: 60px;
+        padding-top: 20px;
+    }
+    
+    .Text-Section h3{
+        font-size: 19px;
+        padding-top: 20px;
+        
+    }
+    
+    .Text-Section p{
+    
+        font-size: 16px;
+        padding-top: 25px;
+        opacity: 0.7;
+    }
+    
+    .Text-Section span{
+        color: red;
+    }
+    
+    .Icons{
+        margin-top: 40px;
+        display: flex;
+        gap: 8px;
+    }
+    
+    .Second-Section{
+        margin-right: 20px;
+        display: flex;
+        margin-top: 70px;
+        margin-bottom: 100px;
+        justify-content: center;
+        gap: 70px;
+    }
+    
+    
+      
+      .cards {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+      }
+      
+      
+      .cards img {
+        position: absolute;
+        
+        
+      }
+      
+      .cards h3 {
+        padding-top: 300px;
+        font-size: 20px;
+      }
+      
+      .cards p {
+        margin-top: 30px;
+        opacity: 0.8;
+      }
+      
+    
+      .About-US-Section{
+        margin-top: 150px;
+        display: flex;
+        gap: 80px;
+       justify-content: center;
+       
+     
+      }
+    
+      .Face-Logo img{
+    
+    align-items: center;
+    padding-top: 100px;
+      }
+    
+     
+    
+      .About-Text h3{
+        color: red;
+        font-size: 24px;
+      }
+    
+      .About-Text h1{
+       padding-top: 10px;
+       font-size: 48px;
+      }
+    
+      .About-Text p{
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 30px;
+        opacity: 0.8;
+      }
+    
+      .Card-Section{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+    
+      .Card-Section h3{
+        font-size: 24px;
+        color: red;
+      }
+    
+      .Card-Section h1{
+       font-size: 48px;
+      }
